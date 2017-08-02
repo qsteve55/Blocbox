@@ -106,6 +106,9 @@ header .hero {
   display:block;
   position: relative;
 }
+header .hero logo {
+  width: 100px
+}
 header .hero h1 {
   font-size:48px;
   font-weight: normal;
@@ -278,7 +281,7 @@ header .hero img {
    position: relative;
    padding:30px;
    width:auto;
-   margin:0;
+   margin-top: 20px;
  }
  .testimonials blockquote:after {
    top: 100%;
@@ -336,8 +339,7 @@ header .hero img {
     background-color: transparent;
   }
   footer .logo{
-    height: 50px
-    width: 50px
+    width: 50px;
     padding: 2.35em 0;
     margin: 0 auto;
     display: block;
@@ -346,7 +348,6 @@ header .hero img {
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
-       height: 100px;
   }
   footer p, footer nav ul{
     padding: 2em 0;
@@ -356,8 +357,6 @@ header .hero img {
     background-color: #3498DB;
   }
   footer .logo{
-    height: 50px
-    width: 50px
     padding: 2em 0 2em 1.5em;
   }
 }
