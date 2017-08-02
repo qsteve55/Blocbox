@@ -188,16 +188,16 @@ header .hero img {
    padding:4em 0;
  }
  .pricing h2, .pricing p {
-   color: black;
+   color:#FFFFFF
  }
  .pricing ul {
-   color: black
    margin:0 auto;
    padding:2em 0;
+   color: black;
  }
  .pricing ul li {
-   color: black
    list-style-type: none;
+   color: black;
  }
  .box {
    padding:0 15px 15px;
@@ -223,6 +223,7 @@ header .hero img {
    text-align: center;
    margin:0 -15px 40px;
    padding:10px 0;
+   color: black;
  }
  .box h4 {
    font-size:50px;
