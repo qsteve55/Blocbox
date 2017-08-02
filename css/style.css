@@ -75,11 +75,8 @@ header {
 header nav {
   padding:1em 0;
 }
-header .site-logo {
+header .hero.site-logo {
   width: 75px;
-  padding: 2.35em 0;
-  margin: 0 auto;
-  display: block;
 }
 header nav ul {
   display:inline;
