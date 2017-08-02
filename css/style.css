@@ -193,11 +193,10 @@ header .hero img {
  .pricing ul {
    margin:0 auto;
    padding:2em 0;
-   color: black;
  }
  .pricing ul li {
    list-style-type: none;
-   color: black;
+   color: #000000;
  }
  .box {
    padding:0 15px 15px;
@@ -223,7 +222,7 @@ header .hero img {
    text-align: center;
    margin:0 -15px 40px;
    padding:10px 0;
-   color: black;
+   color: #000000;
  }
  .box h4 {
    font-size:50px;
@@ -243,10 +242,10 @@ header .hero img {
    vertical-align: middle;
  }
  .box ul li {
-   color: black
    font-size:18px;
    margin-bottom:20px;
    font-weight: 100;
+   color: #000000;
  }
  .box .btn {
   position:absolute;
