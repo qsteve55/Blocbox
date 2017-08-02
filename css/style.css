@@ -196,6 +196,7 @@ header .hero img {
    padding:2em 0;
  }
  .pricing ul li {
+   color: black
    list-style-type: none;
  }
  .box {
