@@ -334,6 +334,7 @@ header .hero img {
     background-color: transparent;
   }
   footer .logo{
+    height: 100px
     width: 100px
     padding: 2.35em 0;
     margin: 0 auto;
@@ -353,6 +354,7 @@ header .hero img {
     background-color: #3498DB;
   }
   footer .logo{
+    height: 100px
     width: 100px
     padding: 2em 0 2em 1.5em;
   }
