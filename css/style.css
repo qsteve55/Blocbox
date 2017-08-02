@@ -118,6 +118,7 @@ header .hero p {
   margin:10px 0 40px;
 }
 header .hero img {
+  width: 100px
   display: block;
   margin:3em auto 0;
 }
@@ -239,6 +240,7 @@ header .hero img {
    vertical-align: middle;
  }
  .box ul li {
+   color: black
    font-size:18px;
    margin-bottom:20px;
    font-weight: 100;
