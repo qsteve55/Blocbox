@@ -106,8 +106,8 @@ header .hero {
   display:block;
   position: relative;
 }
-header .hero logo {
-  width: 100px
+header .logo {
+  width: 100px;
 }
 header .hero h1 {
   font-size:48px;
