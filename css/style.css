@@ -109,8 +109,8 @@ header .hero {
   display:block;
   position: relative;
 }
-header .hero .site-logo {
-  width: 75px
+header .hero .logo {
+  width: 70px
 }
 header .hero h1 {
   font-size:48px;
@@ -342,7 +342,7 @@ header .hero img {
     background-color: transparent;
   }
   footer .logo{
-    width: 75px;
+    width: 70px;
     padding: 2.35em 0;
     margin-left: 160px;
     margin-top: -35px;
