@@ -60,20 +60,23 @@ background: #FFFFFF;
  }
 
 
-
+/* settings */
 
  .settings .dropit {
      list-style: none;
- 	padding: 0;
-   margin: 15px 0 0;
-   float:right;
-   display: inline-block;
+ 	 padding: 0;
+   margin: 10px 0 0;
+   float: left;
+   display: inline-flex;
+   -ms-transform: rotate(180deg); /* IE 9 */
+   -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+   transform: rotate(180deg);
 }
  .settings .dropit .dropit-trigger { position: relative;}
- .settings .dropit .dropit-submenu {
+ .settings .dropit .dropit-submenu a:hover {
      position: absolute;
      top: 100%;
-     right: 0; /* dropdown left or right */
+     right: : 0;
      z-index: 1000;
      display: none;
      min-width: 100px;
@@ -81,7 +84,7 @@ background: #FFFFFF;
  	padding: 20px;
  	margin: 20px 0 0;
 }
- .settings .dropit .dropit-open .dropit-submenu {
+ .settings .dropit .dropit-open .dropit-submenu a:hover {
    display: block;
  background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
@@ -101,14 +104,16 @@ background: #FFFFFF;
 }
   .settings .dropit .dropit-open .dropit-submenu li {
    display: block;
-   margin-top: : 20px;
+   margin-bottom: 20px 0 0;
+   float: left;
+   transform: rotate(180deg);
 }
   .settings .dropit .dropit-open .dropit-submenu li:last-child {
    margin-top: 0px;
 }
-  .settings .dropit .dropit-open .dropit-submenu li a {
+  .settings .dropit .dropit-open .dropit-submenu li a:hover {
    color:#34495E;
    text-decoration: none;
    font-family: "Lato", Helvetica, Arial, sans-serif;
-   font-weight:100;
+   font-weight: 100;
 }

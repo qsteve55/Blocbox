@@ -42,12 +42,12 @@ html, body{
    margin:0 2% 20px;
  }
  /*MEDIA */
- @media (min-width: 768px) {
+ @media (min-width: 375px) {
   .container {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 375px) {
   .container {
     width: 970px;
   }
@@ -61,7 +61,7 @@ html, body{
     width:21%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 375px) {
   .container {
     width: 1170px;
   }
@@ -346,7 +346,7 @@ header .hero img {
     margin-top: -35px;
     display: block;
   }
-  @media (min-width: 992px){
+  @media (min-width: 375px){
     footer{
        background-color: #3498DB;
        background-image: linear-gradient(to left,
@@ -411,7 +411,7 @@ header .hero img {
    left: 5px;
    top: 15px;
  }
- @media (min-width:992px) {
+ @media (min-width:375px) {
    .left-nav {
      height: 100vh;
      width:14.66666667%;
@@ -449,8 +449,7 @@ header .hero img {
    float: top;
    background-color: #34495E;
    text-align: left;
-   position: relative;
-   padding-right: 95px;
+   padding-right: 10px;
  }
  .left-nav .items p {
    font-weight: 600;
@@ -512,90 +511,43 @@ header .hero img {
    position: sticky;
  }
  /* CONTENT */
- .content {
-   padding:6em 1% 1.5em;
-   float:right;
-   width:98%;
-   position: relative;
- }
- .content .header {
-   margin:0 1% 20px;
- }
- .content .header h1 {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
-   font-weight: 100;
-   margin:0 0 30px;
-   font-size: 36px;
-   color: #3498DB;
-   line-height: 44px;
-   float: left;
-   display:inline-block;
- }
- .content .header > a {
-   float:right;
- }
- .content-item {
-   width:96%;
-   margin:0 2% 25px;
-   float:left;
-   display:block;
- }
- .item-box {
-   display:block;
-   height:230px;
-   background: #FFFFFF;
-   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
-   position: relative;
-   overflow: hidden;
-   padding:20px;
- }
- /* Larger Mobile Devices */
- @media (min-width:460px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content-item {
-     width:46%;
-     margin:0 2% 25px;
-     float:left;
-     display:block;
-   }
- }
-/* Tablets */
- @media (min-width:768px) {
-   .content {
-     padding:1.5em 5%;
-     float:right;
-     width:90%;
-     position: relative;
-   }
-   .content > .container {
-     width:700px;
-   }
-   .content-item {
-     width:31.33333%;
-     margin:0 1% 25px;
-   }
- }
-/* Laptops and Desktops */
- @media (min-width:992px) {
-   .content {
-     padding:1.5em 1%;
-     float:right;
-     width:83.33333333%;
-     position: relative;
-   }
-   .content > .container {
-     width:auto;
-   }
-   .content-item {
-     width:23%;
-     margin:0 1% 25px;
-   }
- }
+  .content {
+    padding:6em 1% 1.5em;
+    float:right;
+    width:98%;
+    position: relative;
+  }
+  .content .header {
+    margin:0 1% 20px;
+  }
+  .content .header h1 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    margin:0 0 30px;
+    font-size: 36px;
+    color: #3498DB;
+    line-height: 44px;
+    float: left;
+    display:inline-block;
+  }
+  .content .header > a {
+    float:right;
+  }
+  .content-item {
+    width:96%;
+    margin:0 2% 25px;
+    float:left;
+    display:block;
+  }
+  .item-box {
+    display:block;
+    height:230px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+    position: relative;
+    overflow: hidden;
+    padding:20px;
+  }
  .item-box > img {
    position:absolute;
    height:100%;
@@ -628,3 +580,47 @@ header .hero img {
    line-height: 18px;
    margin:5px 0 0;
  }
+  @media (min-width:375px) {
+    .content {
+      padding:1.5em 1%;
+      float:right;
+      width:90%;
+      position: relative;
+    }
+    .content-item {
+      width:46%;
+      margin:0 2% 25px;
+      float:left;
+      display:block;
+    }
+  }
+  @media (min-width:375px) {
+    .content {
+      padding:1.5em 5%;
+      float:right;
+      width:90%;
+      position: relative;
+    }
+    .content > .container {
+      width:700px;
+    }
+    .content-item {
+      width:31.33333%;
+      margin:0 1% 25px;
+    }
+  }
+  @media (min-width:375px) {
+    .content {
+      padding:1.5em 1%;
+      float:right;
+      width:83.33333333%;
+      position: relative;
+    }
+    .content > .container {
+      width:auto;
+    }
+    .content-item {
+      width:23%;
+      margin:0 1% 25px;
+    }
+  }
